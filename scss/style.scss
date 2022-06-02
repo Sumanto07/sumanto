@@ -396,8 +396,7 @@ li {
     a {
         text-decoration: none;
         color: $white;
-        font-size: 3rem;
-
+        font-size: 2rem;
         margin: 10px;
     }
 }
@@ -433,6 +432,11 @@ li {
 
 // Media Query
 @media only screen and (max-width: $screen-sm-max) {
+    .navbar {
+        .nav-items {
+            display: none;
+        }
+    }
     .main {
         .info {
             width: 100%;

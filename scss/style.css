@@ -390,7 +390,7 @@ li {
 .footer a {
   text-decoration: none;
   color: #fff;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 10px;
 }
 
@@ -423,6 +423,9 @@ li {
 }
 
 @media only screen and (max-width: 991px) {
+  .navbar .nav-items {
+    display: none;
+  }
   .main .info {
     width: 100%;
   }
